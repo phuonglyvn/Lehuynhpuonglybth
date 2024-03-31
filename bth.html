@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+/*bài 2*/
+<div>
+<h1>ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+</div>
+<div>
+<p>Góp ý của bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+<p>Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm <span style="font-style: italic;">(nếu có)</span></p>
+</div>
+<div class="container">
+
+ <form>
+        <label for="fname"></label>
+        <input type="text" id="fname" name="Họ và tên" value="Họ và tên">
+        <label for="mathe"></label>
+        <input type="text" id="mathe" name="Mã thẻ" value="Mã thẻ">
+        <label for="phone"></label>
+        <input type="text" name="Số điện thoại" id="phone" value="Số điện thoại">
+        <label for="email"></label>
+        <input type="email" name="email" id="email" value="E-mail" required>
+        <label for="loaikh"></label>
+        <select id="loaikh" required>
+                <option value="">Chọn loại khách hàng</option>
+                <option value="vip">VIP</option>
+                <option value="regular">Regular</option>
+                <option value="new">New</option>
+        </select>
+        <label for="mahd"></label>
+        <input type="text" name="mã hóa đơn" id="mahd" value="Mã hóa đơn">
+        <label for="chitiet"> </label>
+        <input type="text" name=" Nhập chi tiết" id="chi tiet" value="Nhập chi tiết mô tả">
+        </form>
+        <div>
+            <button type="submit">
+                Gửi góp ý
+               
+            </button>
+            </div>
+        </div>
+    
+
+/*bài 3*/
+<footer>
+    <div class="container3">
+        <div class="footer-content">
+            <h3>KHOA HỌC VÀ KỸ THUẬT THÔNG TIN</h3>
+            <p>Đào tạo ngành công nghệ thông tin và ngành khoa học dữ liệu</p>
+           
+        </div>
+        <div class="footer-content">
+            <h3>LIÊN KẾT</h3>
+             <ul class="list">
+                <li><a href="">Website trường</a></li>
+                <li><a href="">Website khoa </a></li>
+                <li><a href="">Website sinh viên</a></li>
+                <li><a href="">Công nghệ thông tin</a></li>
+                <li><a href="">Khoa học dữ liệu</a></li>
+             </ul>
+        </div>
+        <div class="footer-content">
+            <h3>MẠNG XÃ HỘI</h3>
+            <ul class="social-icons">
+             <li><a href=""><i class="fab fa-facebook"></i></a></li>
+             <li><a href=""><i class="fab fa-twitter"></i></a></li>
+             <li><a href=""><i class="fab fa-instagram"></i></a></li>
+             <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            </div>
+    </div>
+    <div class="bottom-bar">
+        <p>&copy; Bản quyền thuộc khoa công nghệ thông tin</p>
+    </div>
+</footer>
+
+/* bài 1*/
+
+<div class="container1">
+
+    <div class="prs-container">
+ 
+       <div class="pr" data-name="p-1">
+          <img src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.15752-9/432912992_812771764027657_2824634519943364076_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ct6cz3wVJAAAX8RgS9-&_nc_ht=scontent.fsgn5-8.fna&oh=03_AdR2Lfs9k4C_Zi-5YKoDurEAOYvmfptfRWyhVCYAaRDYlw&oe=66309AE8" alt="">
+          <h3>Sản phẩm</h3>
+          <p>sản phẩm đa dạng</p>
+       </div>
+ 
+       <div class="pr" data-name="p-2">
+          <img src="https://scontent.fsgn5-10.fna.fbcdn.net/v/t1.15752-9/434179856_1867380617068108_7912580164742529593_n.png?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Eutv35n1urcAX9EM8XT&_nc_ht=scontent.fsgn5-10.fna&oh=03_AdSIOiMk2YEfV6Q3V3vGilau187iR7tA1qK1rstsN_MWpA&oe=6630749A" alt="">
+          <h3>Hợp đồng</h3>
+          <p>Đảm bảo hợp đồng</p>
+       </div>
+ 
+       <div class="pr" data-name="p-3">
+          <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.15752-9/432788554_1667211017361888_8112584126841578300_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=O8imvlqXsWEAX-yT2i6&_nc_ht=scontent.fsgn5-5.fna&oh=03_AdTqS5wXfq34oxoP6926rTkUgSWjrWOFo5kAEXlEJFyN8Q&oe=66309F8E" alt="">
+          <h3>Thương hiệu</h3>
+          <p>Hơn 700 thương hiệu</p>
+       </div>
+ 
+       <div class="pr" data-name="p-4">
+          <img src="https://scontent.fsgn5-11.fna.fbcdn.net/v/t1.15752-9/433073663_1587915865321010_2190204357915655063_n.png?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=AYTgnGocyWgAX_zniAU&_nc_oc=AdgCmxQRkzE0-ZJGOVyCCHcIn-Pwa_Bj_JcH1Kta8pg9AEvZVL4n5YkUDwXcnirlBqQ&_nc_ht=scontent.fsgn5-11.fna&oh=03_AdQsgam9L4CYhIu-AKLgHTh7I6uHDLWVXXQY4BVlqRP8NQ&oe=66308419" alt="">
+          <h3>Cửa hàng</h3>
+          <p>Hàng ngàn cửa hàng</p>
+       </div>
+ 
+       <div class="pr" data-name="p-5">
+          <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.15752-9/432974733_394646270068321_4992831155765251774_n.png?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Lk4LIDRq7lUAX_GwctH&_nc_ht=scontent.fsgn5-5.fna&oh=03_AdQBnUpkUibQKSlyYjc4m740VgM5-MLa6IRq5_J-fgXScw&oe=6630AB70" alt="">
+          <h3>Chi nhánh</h3>
+          <p>Nhiều chi nhánh</p>
+       </div>
+ 
+       <div class="pr" data-name="p-6">
+          <img src="https://scontent.fsgn5-5.fna.fbcdn.net/v/t1.15752-9/434182453_931425255372214_8747730302426948430_n.png?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=vquZT82YTvwAX-QLSbL&_nc_ht=scontent.fsgn5-5.fna&oh=03_AdSZuEDKLMTSYKYuvEYWSULg2Oi9VEmFaDGBgsd91YbqTQ&oe=6630AC6D" alt="">
+          <h3>Bằng sáng chế</h3>
+          <p>Độc quyền bằng sáng chế</p>
+       </div>
+ 
+    </div>
+</div>
+</body>
+</html>
